@@ -1,4 +1,5 @@
 # API_YaMDb
+ip - 158.160.5.229
 
 Проект YaMDb собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка».
 Произведению может быть присвоен жанр.
@@ -9,7 +10,7 @@ Cредняя оценка произведения высчитывается �
 
 Поддерживает методы GET, POST, PUT, PATCH, DELETE
 
-![example workflow](https://github.com/UserVeryFriendly/yamdb_final/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/UserVeryFriendly/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Стек технологий
 - Django 2.2.16
