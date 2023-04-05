@@ -9,6 +9,8 @@ Cредняя оценка произведения высчитывается �
 
 Поддерживает методы GET, POST, PUT, PATCH, DELETE
 
+https://github.com/UserVeryFriendly/yamdb_final/actions/workflows/main.yml/badge.svg
+
 ## Стек технологий
 - Django 2.2.16
 
