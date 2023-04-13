@@ -61,7 +61,9 @@ jobs:
           script: |
             sudo docker-compose stop
             sudo docker-compose rm web
-            sudo docker-compose down
+            sudo docker-compose down -v
+            sudo docker image rm stregus_web_1
+            sudo rm .env
             sudo docker pull stregus/api_yamdb:latest
             touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
